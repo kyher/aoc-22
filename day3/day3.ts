@@ -3,7 +3,7 @@ import fs from "fs";
 const input = fs.readFileSync("./input.txt", "utf8").trimEnd();
 const array = input.split(/\r\n|\n/);
 
-const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZS";
+const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 const arrayOfDuplicates: string[][] = [];
 
